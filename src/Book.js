@@ -2,12 +2,13 @@ import React from "react"
 import './Book.css'
 
 export default function Book(props) {
-    const bookData = props.bookData
+    const title = props.title
+    const authors = props.authors[0].name
+    console.log("Authors: ", authors)
     return (
         <div className="book">
-            {/* <img src={bookData.formats["image/jpeg"]} /> */}
-            <h2>{bookData.title}</h2>
-            <p>{bookData.authors}</p>
+            <h2>{title}</h2>
+            <p>{authors}</p>
         </div>
     )
 }
