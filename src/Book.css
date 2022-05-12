@@ -1,0 +1,10 @@
+.book {
+    border-radius: 50px;
+    width: fit-content;
+    border: solid 20px;
+}
+
+.book > img{
+    width: 15rem;
+    height: 20rem;
+}
