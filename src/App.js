@@ -13,7 +13,9 @@ function App() {
         </div>
       </header>
 
-      <BookList />
+      <div className="App-main">
+        <BookList />
+      </div>
 
     </div>
   );

@@ -7,8 +7,3 @@ body {
   background-color: #5b6467;
   background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
