@@ -6,12 +6,8 @@ export default function BookList() {
     const [bookList, setBookList] = useState([])
 
     const bookElements = bookList.map((bookData) =>
-        <Book title={bookData.title} authors={bookData.authors} />
+        <Book title={bookData.title} authors={bookData.authors} img={bookData.formats["image/jpeg"]} />
     )
-
-    // bookList.map((bookData) => {
-    //     console.log("The title is: ", bookData.title)
-    // })
 
     useEffect(() => {
         async function getBooks() {
